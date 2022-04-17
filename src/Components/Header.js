@@ -26,31 +26,31 @@ class Header extends Component {
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
-                Home
+                主页
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#about">
-                About
+                关于我们
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#resume">
-                Resume
+                技术服务
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                应用场景
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#contact">
-                Contact
+                联系我们
               </a>
             </li>
           </ul>
@@ -62,16 +62,16 @@ class Header extends Component {
               <h1 className="responsive-headline">{name}</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
+              <h3>{description}</h3>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
+                <a href="" className="button btn project-btn">
+                  <i className="fa fa-book"></i>立即体验
                 </a>
-                <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
+                <a href="#contact" className="button btn github-btn">
+                  <i className="fa fa-github"></i>留言咨询
                 </a>
               </ul>
             </Fade>

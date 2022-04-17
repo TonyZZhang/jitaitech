@@ -15,7 +15,8 @@ class About extends Component {
     const phone = this.props.data.phone;
     const email = this.props.data.email;
     const resumeDownload = this.props.data.resumedownload;
-
+	const achievements = this.props.data.achievements.softwareCopyright;
+	
     return (
       <section id="about">
         <Fade duration={1000}>
@@ -28,24 +29,14 @@ class About extends Component {
               />
             </div>
             <div className="nine columns main-col">
-              <h2>About Me</h2>
-
+              <h2>关于我们</h2>
               <p>{bio}</p>
               <div className="row">
-                <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                <div className="columns achievements">
+                  <h2>技术成果</h2>
                   <p className="address">
-                    <span>{name}</span>
+                    <span>{achievements}</span>
                     <br />
-                    <span>
-                      {street}
-                      <br />
-                      {city} {state}, {zip}
-                    </span>
-                    <br />
-                    <span>{phone}</span>
-                    <br />
-                    <span>{email}</span>
                   </p>
                 </div>
                 <div className="columns download">
@@ -56,6 +47,18 @@ class About extends Component {
                   </p>
                 </div>
               </div>
+			  <h2>联系我们</h2>
+				<div className="address">
+                    <span>
+                      {street}
+                      <br />
+                      {city}
+                    </span>
+                    <br />
+                    <span>{phone}</span>
+                    <br />
+                    <span>{email}</span>
+                 </div>
             </div>
           </div>
         </Fade>

@@ -1,20 +1,23 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"AI Drug",
+    "description":"以计算驱动创新，为全球药企提供智能化药物研发服务。",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"济泰智药科技有限责任公司（简称“济泰科技”）计划于2022年11月成立，企业是以药物研发为主线，以自我研制以及公司合作为途径的新兴技术产业。在首届中国生物计算大会上，生物计算平台负责人何径舟曾表示，“全球生物医药规模持续增长，但是医药研发的效率不断下降，研发一款新药投入的成本和时间越来越呈指数级的增长。”因此，计划以智能AI为依托，实现将大量医疗数据与机器学习技术相结合，建立以AI技术推动药物研发的高新科技企业。",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
     "github":"https://github.com/nordicgiant2/react-nice-resume",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
+      "street":"长城路619号",
+      "city":"泰安市",
       "state":"(Your State)",
       "zip": "(Your Zip/Postal Code)"
     },
+	"achievements":{
+		"softwareCopyright":"药靶分析预测系统V1.0"
+	},
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
     "social":[
